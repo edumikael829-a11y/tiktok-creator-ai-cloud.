@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TikTok Creator AI Cloud</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h1>🎬 TikTok Creator AI Cloud</h1>
+  <p>Seu estúdio de criação de vídeos com IA.</p>
+
+  <label>Tema do vídeo</label>
+  <input id="tema" placeholder="Ex: E se Neymar ficasse no Barcelona?">
+
+  <label>Estilo do vídeo</label>
+  <select id="estilo">
+    <option>Histórias</option>
+    <option>Futebol</option>
+    <option>Curiosidades</option>
+    <option>Terror</option>
+    <option>Documentário</option>
+    <option>Todos os estilos</option>
+  </select>
+
+  <label>Duração</label>
+  <select id="duracao">
+    <option>30 segundos</option>
+    <option>60 segundos</option>
+    <option selected>90 segundos</option>
+  </select>
+
+  <button onclick="gerar()">Gerar roteiro</button>
+  <div id="resultado"></div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
